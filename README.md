@@ -14,7 +14,7 @@ Change `NewApp` to your desired App name
 
 ```html
 <title>NewApp</title>
-```
+````
 
 #### Name and description
 
@@ -75,3 +75,19 @@ Folder includes:
 - **images** folder: Contains all images (.png, .gif, .jpeg, etc...)
 - **svg** folder: Contains SVG files.
 - **utils** folder: Contains files which include global supplementary functions used throughout the application.
+
+## NPM Packages Used
+
+1. axios
+2. immer
+3. normalize.css
+4. react-dnd
+5. react-dnd-html5-backend
+6. react-markdown
+7. react-router-dom
+8. react-tooltip
+9. react-transition-group
+10. styled-components
+11. use-immer
+
+> Delete the packages that will not be used in your app before running `npm install`
