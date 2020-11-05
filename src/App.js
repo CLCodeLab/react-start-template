@@ -1,17 +1,16 @@
 import React from 'react'
 import { useImmerReducer } from 'use-immer'
+import 'normalize.css'
 import './App.css'
 
-/**
- * -- CONTEXT --
- */
+/*
+-- CONTEXT -- */
 import DispatchContext from './context/DispatchContext'
 import StateContext from './context/StateContext'
 
 function App() {
-	/**
-	 * -- APP WIDE REDUCER --
-	 */
+	/*
+	 -- APP WIDE REDUCER --*/
 	const initialState = {
 		someState: ''
 	}
